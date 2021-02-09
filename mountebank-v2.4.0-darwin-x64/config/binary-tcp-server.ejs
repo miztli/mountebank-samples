@@ -1,0 +1,20 @@
+{
+	"port": 3001,
+	"protocol": "tcp",
+	"mode": "binary",
+	"stubs": [
+		{
+			"predicates": [
+				{ "startsWith": { "data": "aGVsbG8=" } }
+			],
+			"responses": [
+				{ "is": { "data": "aGVsbG8gd29ybGQ=" } }
+			]
+		},
+		{
+			"responses": [
+				{ "is": { "data": "VGhpcyBpcyBhIGRlZmF1bHQgbWVzc2FnZSE=" } }
+			]
+		}
+	]
+}

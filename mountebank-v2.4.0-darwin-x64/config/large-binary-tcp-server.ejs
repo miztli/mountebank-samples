@@ -1,0 +1,16 @@
+{
+	"port": 3002,
+	"protocol": "tcp",
+	"mode": "binary",
+	"recordRequests": true,
+	"stubs": [
+		{
+			"responses": [
+				{ "is": { "data": "aGVsbG8gd29ybGQ=" } }
+			]
+		}
+	],
+	"endOfRequestResolver": {
+		"inject": "<%- stringify(filename, 'eor-resolver.js') %>"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"port": 3000,
+	"protocol": "tcp",	
+	"stubs": [
+		{
+			"predicates": [
+				{ "startsWith": { "data": "hello" } }
+			],
+			"responses": [
+				{ "is": { "data": "hello Miztli!" } }
+			]
+		},
+		{
+			"responses": [
+				{ "is": { "data": "This is a default message!" } }
+			]
+		}
+	]
+}
