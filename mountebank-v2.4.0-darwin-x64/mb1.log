@@ -1,5 +1,0 @@
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-02-06T00:25:36.752Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-02-06T00:25:36.765Z"}
-{"message":"[http:8080] Open for business...","level":"info","timestamp":"2021-02-06T00:25:36.777Z"}
-{"message":"[http:8080] ::1:57792 => GET /","level":"info","timestamp":"2021-02-06T00:25:58.853Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-02-06T00:33:20.323Z"}
