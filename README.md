@@ -10,6 +10,14 @@ Use the following commands to run some sample features of mountebank
 
 `echo "hello" | nc localhost 3000`
 
+- Run server using plugins
+
+`./mb --configfile config/imposters.ejs --protofile config/protocols.json --allowInjection`
+
+- Run client
+
+`nc 127.0.0.1 3005`
+
 - Run tcp call for binary mode (use anything different to get a default response)
 
 `echo "aGVsbG8=" | nc localhost 3001`

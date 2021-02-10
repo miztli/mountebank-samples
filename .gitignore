@@ -1,2 +1,4 @@
 mb*.log
 *.pid
+node_modules/
+.idea

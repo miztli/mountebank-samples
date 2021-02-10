@@ -1,0 +1,14 @@
+{
+  "name": "iso8583-plugin",
+  "version": "1.0.0",
+  "description": "Listen and parse iso8583 messages",
+  "main": "iso-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miztli melgoza",
+  "license": "ISC",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}

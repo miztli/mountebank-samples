@@ -1,0 +1,5 @@
+{
+	"iso8583": {
+		"createCommand": "node ./plugins/iso8583/iso-server.js"
+	}
+}
